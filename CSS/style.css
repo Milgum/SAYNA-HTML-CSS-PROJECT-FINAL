@@ -1,0 +1,246 @@
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.page{
+    background-image: url(/IMAGE/group-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    height: 500px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(194, 71, 71);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color:  #666;
+  }
+  .navbar{
+    float: left;
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 75px;
+}
+  .navbar2{
+      float: left;
+      
+  }
+.navbar3{
+    padding-top: 25px;
+}
+.titre2{
+    color: white;
+    text-align: center;
+}
+.titre3{
+    width: 40%; 
+    background-color: white;
+    border: black;
+    border-radius: 10px;
+    border: #666;
+    text-align: center;
+    margin-left: 30%;
+    opacity: 0.8;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.titre3 h4 {
+    color: rgb(194, 71, 71);
+}
+.titre3 input[type=text]{
+    font-size: 25px;
+}
+.rechercher{
+    font-size: 30px;
+    padding: 14px 28px;
+    width: 25%;
+    height: 25%;
+}
+.bton{
+    background-color: rgb(194, 71, 71);
+    border: none;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.hel{
+    padding-bottom: 5%;
+    padding-top: 5px;
+}
+.bton4{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.row {
+    display: flex;
+}
+.column {
+    text-align: center;
+    flex: 70%;
+    padding: 10px;
+    height: 300px; 
+}
+.bkwt{
+    margin-top: 125px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text{
+    text-align: center;
+    padding-top: 35px;
+    color: rgb(194, 71, 71);
+
+}
+.case{
+    background-color: rgb(201, 75, 75);
+    text-align: left;
+    padding-left: 30px;
+    padding: 15px;
+    background-clip: border-box;  
+   
+}
+.texta{
+    color: rgb(194, 71, 71);
+}
+
+.bton2{
+    padding-top: 50px;
+    background-color: whitesmoke;
+    border: none;
+    color: red;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer; 
+}
+.case2{
+    background-color: rgb(165, 165, 165);
+    text-align: left;
+    padding-left: 30px;
+    padding: 15px;
+    background-clip: border-box; 
+}
+.bton3{
+    padding-top: 50px;
+    background-color: whitesmoke;
+    border: none;
+    color: gray;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer; 
+}
+.case3{
+    background-color: rgb(64, 158, 235);
+    text-align: left;
+    padding-left: 30px;
+    padding: 15px;
+    background-clip: border-box; 
+}
+.text2
+{
+    padding-bottom: 20px;
+}
+.column3 {
+    flex: 70%;
+    color: beige;
+    height: 300px;
+    margin-bottom: 20px;
+    font-size: 17px;
+
+}
+.column3 img{
+    float: right;
+    border-radius: 100%;
+}
+.text3
+{
+    padding-bottom: 60px;
+}
+ /* footer: */
+footer{
+    background-color: black;
+}
+.foot{
+    text-align: center;
+    color: whitesmoke;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    padding: 20px 0 20px 0;
+    border: thick;
+    font-size: 15px;
+    align-items: center;
+  
+}
+.foot a{
+    text-decoration: none;
+    color: #f3ecf0;
+    font-size: 17px;
+    padding: 0px 17px;
+    text-decoration: underline overline;
+}
+.foot a:hover{
+    background-size: auto;
+    color: #666;
+}
+.column2 {
+    margin-top: 50px;
+    text-align: center;
+    flex: 70%;
+    padding: 10px;
+    height: 300px; 
+    color: rgb(255, 255, 255);
+
+}
+.bton4{
+    background-color: rgb(61, 59, 59);
+    border: none;
+    color: white;
+    font-size: 20px;
+  border-radius: 5px;
+}
+.foot2{
+    color: rgb(124, 115, 115);
+    border: thick;
+    padding-left: 10px;
+    background-color: #666;
+    font-size: 50px;
+}
+.mail{
+    background-color: black;
+    color: whitesmoke;
+}
+.btonmp{
+    border-radius: 100%;
+    font-size: 10px;
+}
+
+/* telephoones: */
+@media only screen and (max-width: 620px) {
+    
+    .page, .bckwt, .case,.case2,.case3,.row,.foot2 {
+      width: 100%;
+    }
+}
